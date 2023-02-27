@@ -1,0 +1,76 @@
+html{
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+/*====== layout ======*/
+body {
+	padding: 1rem;
+}
+
+article {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*====== typography ======*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Righteous&display=swap');
+
+.branding {
+  font-family: 'Righteous', cursive, sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+body {
+  font: 18px/1.5 Helvetica, Arial, sans-serif;
+  padding: 1em;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 400px;
+  margin-top: -20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-left: 400px;
+  margin-top: -18px;
+  margin-bottom: 36px;
+}
+
+.question {
+  font-style: italic;
+}
+
+/*===== buttons =====*/
+
+.btn {
+  text-transform: uppercase;
+  padding: 0.3em 1em;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+.btn:hover {
+	color: #a9b2b9;
+}

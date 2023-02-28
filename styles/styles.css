@@ -10,67 +10,113 @@ body {
 	padding: 1rem;
 }
 
-article {
+article {!@
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 /*====== typography ======*/
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 
 .branding {
-  font-family: 'Righteous', cursive, sans-serif;
-  font-size: 3em;
-  font-weight: 600;
-  line-height: 1;
-  margin-left: 300px;
-  margin-top: 100px;
+  font-family: "Audiowide", sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  color: lightyellow;
+  text-align: center;
 }
+
+.image {
+  background-image: url('https://images.unsplash.com/photo-1472847720459-21ede812f22a?ixlib=rb-4.0.3&dl=gemma-evans-zj475haUy2M-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb');
+  background-size: cover;
+  height: 500px;
+  padding: 20px;
+  background-origin: content-box;
+	background-repeat: no-repeat;
+ }
 
 body {
-  font: 18px/1.5 Helvetica, Arial, sans-serif;
-  padding: 1em;
+  font: 18px/1.5 'Roboto', sans-serif;
+  background-color: lightyellow;
 }
 
+
 a {
-  color: black;
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-  color: grey;
+  color: orange;
 }
 
 h1 {
-  font-size: 36px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 40px;
   font-weight: bold;
-  margin-left: 400px;
-  margin-top: -20px;
+  margin-left: 500px;
+  margin-top: -60px;
+  color: lightyellow;
+  text-align: right;
 }
 
 h2 {
-  font-size: 24px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 30px;
   font-weight: bold;
   line-height: 30px;
-  margin-left: 400px;
+
   margin-top: -18px;
   margin-bottom: 36px;
+  text-align: right;
+  color: red;
 }
 
 .question {
   font-style: italic;
 }
 
+dl {
+  border-left: 6px solid red;
+  padding-left: 18px;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+dd {
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.linebreak {
+  border-bottom: 1px dashed red;
+  margin-bottom: 40px;
+}
+
+blockquote {
+  font-size: 25px;
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
 /*===== buttons =====*/
 
 .btn {
   text-transform: uppercase;
-  padding: 0.3em 1em;
-	background-color: black;
-	color: white;
+  padding: 0.2em;
+	color: red;
 	font-weight: bold;
 }
 
 .btn:hover {
-	color: #a9b2b9;
+	color: orange;
 }

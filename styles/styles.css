@@ -97,16 +97,15 @@ dd {
 
 
 .quote {
-  background-color: rgba(255,0,0,0.8);
+  background-color: rgba(260,0,0,0.09);
   padding: 5px;
   margin-bottom: 10px;
-  box-shadow: 10px 10px rgba(255,0,0,0.1);
   
 }
 
 blockquote {
   font-size: 23px;
-  color: lightyellow;
+  color: red;
   font-style: italic;
   font-weight: bold;
   margin-top: -40px;
@@ -114,7 +113,7 @@ blockquote {
 
 .quotationmark {
   font-size: 50px;
-  color: lightyellow;
+  color: red;
 }
 
 span {

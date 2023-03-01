@@ -11,7 +11,7 @@ body {
 }
 
 article {
-	max-width: 900px;
+	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -60,7 +60,7 @@ h1 {
   font-weight: bold;
   margin-top: -50px;
   text-align: right;
-  color: lightyellow;
+  color: red;
 }
 
 h2 {
@@ -86,7 +86,7 @@ dl {
 dt {
   font-weight: bold;
   font-size: 20px;
-  color: red;
+  color: rgba(255,0,0,0.8);
   text-transform: uppercase;
 }
 
@@ -95,21 +95,63 @@ dd {
   margin-bottom: 12px;
 }
 
-.linebreak {
-  border-bottom: 1px dashed red;
-  margin-bottom: 40px;
-  padding-bottom: 18px;
+
+.quote {
+  background-color: rgba(255,0,0,0.8);
+  padding: 5px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px rgba(255,0,0,0.1);
+  
 }
 
 blockquote {
-  font-size: 25px;
+  font-size: 23px;
   color: lightyellow;
   font-style: italic;
   font-weight: bold;
+  margin-top: -40px;
+}
+
+.quotationmark {
+  font-size: 50px;
+  color: lightyellow;
+}
+
+span {
+  font-size: 30px;
+  margin-bottom: -20px;
+}
+
+footer:last-child {
   background-image: url('https://images.unsplash.com/photo-1472847720459-21ede812f22a?ixlib=rb-4.0.3&dl=gemma-evans-zj475haUy2M-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb');
   background-size: cover;
   background-origin: content-box;
 	background-repeat: no-repeat;
+}
+
+footer > p {
+  color: lightyellow;
+}
+
+h1 > span {
+  background: lightyellow;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.dots {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.warning {
+  color: rgba(255,0,0,0.9);
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /*===== buttons =====*/
@@ -117,7 +159,7 @@ blockquote {
 .btn {
   text-transform: uppercase;
   padding: 0.2em;
-	color: red;
+	color: lightyellow;
 	font-weight: bold;
 }
 
